@@ -10,7 +10,7 @@
             ]);
         }
 
-        public function firebase(); void {
+        public function firebase(): void {
             try {
                 $client = new FirestoreClient();
                 Response::json([
