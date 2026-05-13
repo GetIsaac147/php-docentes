@@ -1,0 +1,49 @@
+body {
+  background: #f4f7fb;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.modal-content {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.table th {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  color: #6c757d;
+  letter-spacing: 0.04em;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.badge-status {
+  min-width: 80px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: end;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.docente-name {
+  font-weight: 700;
+}
+
+.docente-subtitle {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .table {
+    min-width: 900px;
+  }
+}
